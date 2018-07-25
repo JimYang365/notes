@@ -30,4 +30,3 @@
     unsigned long long:     y
                float:       f
               double:       d
-
