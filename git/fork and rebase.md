@@ -1,5 +1,4 @@
-# git command
-### [在fork的分支上做rebase的方法](https://gist.github.com/ravibhure/a7e0918ff4937c9ea1c456698dcd58aa)
+# [在fork的分支上做rebase的方法](https://gist.github.com/ravibhure/a7e0918ff4937c9ea1c456698dcd58aa)
 
 1.添加远程分支
 
