@@ -1,5 +1,8 @@
 # [在fork的分支上做rebase的方法](https://gist.github.com/ravibhure/a7e0918ff4937c9ea1c456698dcd58aa)
 
+* **通过页面fork到我们自己的仓库**
+
+
 * **添加远程分支**
 
 ```bash
@@ -27,8 +30,11 @@ git rebase upstream/master
 * **推送到fork过的远程分支**
 
 ```bash
-git push -f origin master
+git push [origin master]
 ```
 
-rebase后第一次提交要用push -f，强制提交
+* **通过页面生成new merge request**
+
+* **具有merge权限的用户review、merge**
+
 
