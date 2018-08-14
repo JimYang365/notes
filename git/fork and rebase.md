@@ -1,15 +1,15 @@
 # [在fork的分支上做rebase的方法](https://gist.github.com/ravibhure/a7e0918ff4937c9ea1c456698dcd58aa)
 
-* **通过页面fork到我们自己的仓库**
+- **通过页面fork到我们自己的仓库**
 
 
-* **添加远程分支**
+- **添加远程分支**
 
 ```bash
 git remote add upstream REMOTE_URL
 ```
 
-* **获取原始分支**
+- **获取原始分支**
 
 ```bash
 git fetch upstream
