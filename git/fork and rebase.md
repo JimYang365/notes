@@ -2,8 +2,6 @@
 
 * **添加远程分支**
 
-把被fork的原始分支对应到远程分支upstream
-
 ```bash
 git remote add upstream REMOTE_URL
 ```
