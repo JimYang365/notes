@@ -226,6 +226,7 @@ __objc_classrefs是引用到的类，_objc_classname是所有类名，通过分�
 ### 参考文献
 [优化 App 的启动时间](http://yulingtianxia.com/blog/2016/10/30/Optimizing-App-Startup-Time/)
 
+---
 ```
 作者：Mrshang110
 链接：https://www.jianshu.com/p/52e0dee35830
