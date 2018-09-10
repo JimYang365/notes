@@ -78,9 +78,10 @@ Path是可执行文件的路径，Arch是架构类型。
 第一列是起始位置，第二列是Section占用内存大小，第三列是Segment类型，第四列是Section类型。
 为了理解上面的信息，我们需要先补充一点Mach-O知识。
 Mach-O 文件中的虚拟地址最终会映射到物理地址上。这些地址被分成不同的Segement： __TEXT段、__DATA段 和 __LINKEDIT段。
-（1）__TEXT 包含 Mach header，被执行的代码和只读常量（如C 字符串），只读可执行（r-x）。
-（2）__DATA 包含全局变量，静态变量等，可读写（rw-）。
-（3）__LINKEDIT 包含了加载程序的『元数据』，比如函数的名称和地址，只读（r–）。
+
+*（1）__TEXT 包含 Mach header，被执行的代码和只读常量（如C 字符串），只读可执行（r-x）。
+*（2）__DATA 包含全局变量，静态变量等，可读写（rw-）。
+*（3）__LINKEDIT 包含了加载程序的『元数据』，比如函数的名称和地址，只读（r–）。
 
 Segement划分成了不同的Section，不同的Section存储着不同的信息，下面是一些常用的Section的介绍。
 
@@ -225,9 +226,9 @@ __objc_classrefs是引用到的类，_objc_classname是所有类名，通过分�
 ### 参考文献
 [优化 App 的启动时间](http://yulingtianxia.com/blog/2016/10/30/Optimizing-App-Startup-Time/)
 
-
-### ----------------
+```
 作者：Mrshang110
 链接：https://www.jianshu.com/p/52e0dee35830
 來源：简书
 简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+```
