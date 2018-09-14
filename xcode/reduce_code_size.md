@@ -310,7 +310,7 @@
 
 * 初始 Framework 文件大小 3.7M
 ```
-__TEXT __DATA __LINKEDIT 三个段中大小，__TEXT __DATA 大小为 952K，__LINKEDIT 为 2.6M
+__TEXT __DATA __LINKEDIT 三个段中，__TEXT __DATA 大小为 952K，__LINKEDIT 为 2.6M
 ```
 
 * 修改 ```Deployment Postprocessing、Strip Style``` 编译选项
