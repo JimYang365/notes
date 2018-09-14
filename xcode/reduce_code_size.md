@@ -341,3 +341,4 @@ Framework 文件为 187K，__TEXT __DATA 大小为 100K，__LINKEDIT 为 80K+
 - [Xcode中和symbols有关的几个设置](https://www.jianshu.com/p/11710e7ab661)
 - [Playing with ```__attributes__ visibility```](https://segmentfault.com/a/1190000004106456)
 - [MachOExplorer](https://github.com/everettjf/MachOExplorer/)
+- [View Link Map File](https://github.com/huanxsd/LinkMap)
