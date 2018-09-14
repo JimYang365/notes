@@ -339,5 +339,5 @@ Framework 文件为 187K，__TEXT __DATA 大小为 100K，__LINKEDIT 为 80K+
 ### References
 - [jtool](http://www.newosxbook.com/tools/jtool.html)
 - [Xcode中和symbols有关的几个设置](https://www.jianshu.com/p/11710e7ab661)
-- [Playing with __attributes__ （三）visibility](https://segmentfault.com/a/1190000004106456)
+- [Playing with __attributes__ （三）visibility](https://segmentfault.com/a/1190000004106456)
 - [MachOExplorer](https://github.com/everettjf/MachOExplorer/)
