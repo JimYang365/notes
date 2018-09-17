@@ -338,6 +338,18 @@ Framework 文件降为 123K，__TEXT __DATA 大小为 100K，__LINKEDIT 为 20K+
 Framework 文件为 187K，__TEXT __DATA 大小为 100K，__LINKEDIT 为 80K+
 ```
 
+|方案 | Deployment Postprocessing: YES | Strip Style :non-global | [调整```__attribute__```](# "attribute visibility hidden") | 模版改为宏 | __TEXT __DATA 大小 | __LINKEDIT 大小 | 总大小|
+|---|--- |---|---|---|---|---|---|---|---|
+|1   |✗    |✗    |✗    |✗    |952K    |2.6M    |3.7M|
+|2   |✅   |✗    |✗    |✗    |952K    |1.5M    |2.5M|
+|3   |✅   |✅   |✗    |✗    |952K    |990K    |2M|
+|4   |✅   |✅   |✅   |✗    |944K    |470K    |1.5M|
+|5   |✅   |✅   |✅   |✅   |100K    |20K+    |***123K***|
+|6   |✅   |✅   |✗    |✅   |100K    |28K     |131K|
+|7   |✗    |✗    |✗    |✅   |100K    |80K+    |187K|
+
+
+
 ### References
 - [jtool](http://www.newosxbook.com/tools/jtool.html)
 - [Xcode中和symbols有关的几个设置](https://www.jianshu.com/p/11710e7ab661)
