@@ -1,3 +1,5 @@
+# build skia on windows
+
 **skia** 是啥就不多说了，首先呢要有 **稳定的上网环境** ，这是必须的，另外需要 **python2**，不能用 py3，还要有 **LLVM**。
 官方文档在这里，https://skia.org/docs/，如何编译在这 https://skia.org/docs/user/build/，其实讲的还算清楚，就是关于 Windows 的讲的不是很详细，下面开始正题。
 
